@@ -29,7 +29,7 @@ header {
 }
 
 .selfie {
-  max-width: 20%;
+  max-width: 12em;
   height: auto;
   border-radius: 50%;
 }
