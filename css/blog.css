@@ -82,6 +82,10 @@ nav a {
   font-size: 1.2em;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 footer {
   margin: 2em;
 }
