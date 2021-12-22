@@ -19,10 +19,15 @@
   src: url('/fonts/roboto-v18-latin-700.woff2') format('woff2');
 }
 
+* + * {
+  margin-top: 1.5em;
+}
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
   text-align: center;
   max-width: 960px;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,12 +56,21 @@ a:hover {
 nav {
   border-bottom: 1px solid #eee;
   padding-bottom: 1em;
+  margin-top: 0;
 }
 
 nav a {
  font-weight: 300;
  padding-left: 0.5em;
  padding-right: 0.5em;
+}
+
+.blog {
+  text-align: left;
+}
+
+.blog-title {
+  text-align: center;
 }
 
 .blog-list {
