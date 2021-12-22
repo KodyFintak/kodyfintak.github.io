@@ -38,10 +38,14 @@ header {
 }
 
 a,
-a:hover,
 a:active {
   color: #319bd0;
   text-decoration: none;
+}
+
+a:hover {
+  color: #0f3464;
+  text-decoration: underline;
 }
 
 nav {
@@ -51,7 +55,6 @@ nav {
 
 nav a {
  font-weight: 300;
- color: black;
  padding-left: 0.5em;
  padding-right: 0.5em;
 }
