@@ -52,6 +52,11 @@ nav a {
   border: 2px solid black;
 }
 
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
 footer {
   margin: 2em;
 }
