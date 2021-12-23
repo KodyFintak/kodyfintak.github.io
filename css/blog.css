@@ -90,7 +90,23 @@ blockquote {
 }
 
 footer {
-  margin: 1em;
+  margin: 1rem;
   border-top: 1px solid #eee;
-  padding-top: 1em;
+  padding-top: 1rem;
+  font-size: 0.8em;
+}
+
+.github-account {
+  display: flex;
+  justify-content: center;
+  gap: 0.2em;
+}
+
+.github-account > * {
+  margin: 0;
+}
+
+.github-icon {
+  width: 1em;
+  height: 1em;
 }
