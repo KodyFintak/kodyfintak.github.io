@@ -66,6 +66,10 @@ nav a {
  padding-right: 0.5em;
 }
 
+main {
+  margin-top: 0;
+}
+
 .blog {
   text-align: left;
 }
