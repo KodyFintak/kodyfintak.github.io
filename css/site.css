@@ -19,6 +19,10 @@
   src: url('/fonts/roboto-v18-latin-700.woff2') format('woff2');
 }
 
+:root {
+  --page-break-color: #eee;
+}
+
 * + * {
   margin-top: 1.5em;
 }
@@ -55,7 +59,7 @@ a:hover {
 }
 
 nav {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--page-break-color);
   padding-bottom: 1em;
   margin-top: 0;
 }
@@ -70,20 +74,20 @@ main {
   margin-top: 0;
 }
 
-.blog {
+.post {
   text-align: left;
 }
 
-.blog-title {
+.post-title {
   text-align: center;
 }
 
-.blog-list {
+.post-list {
   list-style: none;
   padding: 0;
 }
 
-.blog-link {
+.post-link {
   font-size: 1.2em;
 }
 
@@ -99,7 +103,7 @@ footer {
   justify-content: center;
   gap: 1em;
   margin: 1rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--page-break-color);
   padding-top: 1rem;
 }
 
