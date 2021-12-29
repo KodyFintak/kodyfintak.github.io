@@ -37,7 +37,7 @@ body {
   padding: 0 1em;
 }
 
-header {
+.page-header {
   margin: 1em;
 }
 
@@ -78,8 +78,20 @@ main {
   text-align: left;
 }
 
-.post-title {
+.post-header {
   text-align: center;
+}
+
+.post-title {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.post-published-date {
+  display: block;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0;
 }
 
 .post-list {
