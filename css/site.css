@@ -29,8 +29,7 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  text-align: center;
-  max-width: 840px;
+  max-width: 52rem;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
@@ -38,11 +37,29 @@ body {
 }
 
 .page-header {
-  margin: 1em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.site-info {
+  margin-top: 0;
+}
+
+.site-info > * {
+  margin: 0;
+}
+
+.name {
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+.about-me {
+  font-size: 0.9em;
 }
 
 .selfie {
-  max-width: 8em;
+  max-width: 6em;
   height: auto;
   border-radius: 50%;
 }
@@ -60,8 +77,8 @@ a:hover {
 
 nav {
   border-bottom: 1px solid var(--page-break-color);
+  margin-top: 0.5em;
   padding-bottom: 1em;
-  margin-top: 0;
 }
 
 nav a {
@@ -72,10 +89,6 @@ nav a {
 
 main {
   margin-top: 0;
-}
-
-.post {
-  text-align: left;
 }
 
 .post-header {
@@ -105,10 +118,6 @@ main {
   font-size: 1.5em;
 }
 
-.post-snippet-blurb {
-  text-align: left;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -120,7 +129,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 1em;
-  margin: 1rem;
+  margin: 1rem 0;
   border-top: 1px solid var(--page-break-color);
   padding-top: 1rem;
 }
