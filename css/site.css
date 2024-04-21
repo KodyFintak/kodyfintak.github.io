@@ -118,6 +118,11 @@ main {
   font-size: 1.5em;
 }
 
+.post-snippet-blurb {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -152,4 +157,9 @@ footer > * {
   max-width: 1em;
   max-height: 1em;
   object-fit: contain;
+}
+
+
+li + * {
+  margin-top: 0.5em;
 }
